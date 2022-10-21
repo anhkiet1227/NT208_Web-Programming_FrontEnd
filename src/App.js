@@ -5,7 +5,13 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Routes } from 'react-router-dom';
 import Home from "./pages/common/Home/Home";
-
+import Post from "./pages/common/Post/Post";
+import Document from "./pages/common/Document/Document";
+import QandA from "./pages/common/QandA/QandA";
+import Upload from "./pages/common/Upload/Upload";
+import Search from "./pages/common/Search/Search";
+import Login from "./pages/common/Login/Login";
+import Register from "./pages/common/Register/Register";
 
 function App() {
   return (
@@ -14,7 +20,14 @@ function App() {
         <Header />
           <div id="header" style={{ height: "65px" }}>this is the header</div>
         <Routes>
-          <Route path="/" element={Home} />          
+          <Route exact path="/" element={Home} />    
+          <Route exact path="/post" element={Post} />
+          <Route exact path="/document" element={Document} />
+          <Route exact path="/qanda" element={QandA} />
+          <Route exact path="/upload" element={Upload} />
+          <Route exact path= "/login" element={Login} />
+          <Route exact path= "/register" element={Register} />
+          <Route path="/search" exact element={Search} />
         </Routes>
       </Router>
     </div>
