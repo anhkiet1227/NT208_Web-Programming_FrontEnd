@@ -3,32 +3,21 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 
+/* import the components */
+import Navbar from "./pages/Navbar/Navbar";
+import Footer from "./pages/Footer/Footer";
 /* import my page web*/
 import Home from "./pages/Home/Home";
-import DocumentList from "./pages/DocumentList/DocumentList";
-import DocumentDetail from "./pages/DocumentDetail/DocumentDetail";
-import QandA from "./pages/QandA/QandA";
-import Upload from "./pages/Upload/Upload";
-import Login from "./pages/Login/Login";
-import Register from "./pages/Register/Register";
-import Search from "./pages/Search/Search";
 
-function App() {
+const App = () => {
   return (
     <Router>
+      <Navbar />
       <Routes>
-        <Route exact path="/" element={Home} />
-        <Route exact path="/document" element={DocumentList} />
-        <Route exact path="/document/:id" element={DocumentDetail} />
-        <Route exact path="/qanda" element={QandA} />
-        <Route exact path="/upload" element={Upload} />
-        <Route exact path="/login" element={Login} />
-        <Route exact path="/register" element={Register} />
-        <Route path="/search" exact element={Search} />
+        <Route path="/" element={<Home />} />
       </Routes>
-      <div className="App"></div>
+      <Footer />
     </Router>
   );
 }
-
 export default App;
