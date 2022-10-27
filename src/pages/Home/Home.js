@@ -1,16 +1,11 @@
 import style from "../../style";
-
-
+import Hero from "../Hero/Hero.js";
 
 const Home = () => {
     return (
-        <div>
-            
-            Home
-
-        </div>
-
-        
+        <>
+            <Hero />
+        </>
     );
 };
 export default Home;

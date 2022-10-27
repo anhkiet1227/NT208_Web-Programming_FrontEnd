@@ -8,6 +8,8 @@ import Register from "./Register/Register.js";
 import QandA from "./QandA/QandA.js";
 import Upload from "./Upload/Upload.js";
 
+import Hero from "./Hero/Hero.js";
+
 export {
     Home,
     Navbar,
@@ -17,4 +19,5 @@ export {
     Register,
     QandA,
     Upload,
+    Hero,
 };
