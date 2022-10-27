@@ -8,6 +8,7 @@ import Navbar from "./pages/Navbar/Navbar";
 import Footer from "./pages/Footer/Footer";
 /* import my page web*/
 import Home from "./pages/Home/Home";
+import "./App.css";
 
 const App = () => {
   return (
