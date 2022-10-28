@@ -73,15 +73,13 @@ function Navbar() {
 
             <li>
               <Link
-                to='/upload'
+                to='/register'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Upload
+                Register
               </Link>
             </li>
-
-            
           </ul>
           {button && <Button buttonStyle='btn--outline'>Register</Button>}
         </div>
