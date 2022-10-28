@@ -1,8 +1,11 @@
 import React from 'react'
+import Card from '../Card/Card'
 
 function Document() {
   return (
-    <div>Document</div>
+    <>
+      <Card />
+    </>
   )
 }
 

@@ -9,6 +9,7 @@ import QandA from "./QandA/QandA.js";
 import Upload from "./Upload/Upload.js";
 
 import Hero from "./Hero/Hero.js";
+import CardItem from "./CardItem/CardItem.js";
 
 export {
     Home,
@@ -20,4 +21,5 @@ export {
     QandA,
     Upload,
     Hero,
+    CardItem,
 };
