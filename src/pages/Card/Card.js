@@ -34,13 +34,13 @@ function Card() {
                                 src='images/an7.png'
                                 text='The Post about the Linear Algebra'
                                 label='Adventure'
-                                path='/products'
+                                path='/services'
                             />
                             <CardItem
                                 src='images/an3.png'
                                 text='NNSC Group is now available on Facebook Post'
                                 label='Advertise'
-                                path='/sign-up'
+                                path='/services'
                             />
                         </ul>
                     </div>
