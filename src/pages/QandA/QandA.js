@@ -1,8 +1,11 @@
 import React from 'react'
+import '../../App.css'
 
 function QandA() {
   return (
-    <div>QandA</div>
+    <>
+    <h1 className='products'>Question and Answer</h1>
+    </>
   )
 }
 

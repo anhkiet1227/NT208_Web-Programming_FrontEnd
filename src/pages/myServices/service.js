@@ -1,8 +1,9 @@
 import React from 'react'
+import '../../App.css'
 
 function service() {
   return (
-    <div>service</div>
+    <h1 className='products'>Document for UIT Student</h1>
   )
 }
 

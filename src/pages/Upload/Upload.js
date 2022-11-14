@@ -2,7 +2,9 @@ import React from 'react'
 
 function Upload() {
   return (
-    <div>Upload</div>
+    <>
+    <h1 className='products'>Upload</h1>
+    </>
   )
 }
 
