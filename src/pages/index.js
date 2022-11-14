@@ -5,7 +5,7 @@ import Home from "./Home/Home.js";
 import Document from "./Document/Document.js";
 import Login from "./Login/Login.js";
 import Register from "./Register/Register.js";
-import QandA from "./QandA/QandA.js";
+import Upload from "./Upload/Upload.js";
 import Service from "./myServices/service.js";
 
 import Hero from "./Hero/Hero.js";
@@ -18,7 +18,7 @@ export {
     Document,
     Login,
     Register,
-    QandA,
+    Upload,
     Hero,
     CardItem,
     Service,

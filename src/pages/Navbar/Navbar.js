@@ -46,10 +46,10 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link 
-                to='/qanda' className='nav-links' 
+                to='/upload' className='nav-links' 
                 onClick={closeMobileMenu}
               >
-                Q_and_A
+                Upload
               </Link>
             </li>
             <li className='nav-item'>
