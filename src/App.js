@@ -13,7 +13,6 @@ import Document from "./pages/Document/Document";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import QandA from "./pages/QandA/QandA";
-import Upload from "./pages/Upload/Upload";
 import Service from "./pages/myServices/service";
 
 /*import css*/
@@ -29,7 +28,6 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/qanda" element={<QandA />} />
-        <Route path="/upload" element={<Upload />} />
         <Route path="/service" element={<Service />} />
       </Routes>
       <Footer />
